@@ -64,6 +64,7 @@ int list_remove(List *list,int index){
         }
 
         previous_cursor->next = cursor->next;
+        free(cursor);
     }
 
     list->length--;
