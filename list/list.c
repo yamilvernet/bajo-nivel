@@ -17,6 +17,12 @@ List *new_list(){
     return new;
 }
 
+// void list_push(List *list, int value){
+//     add_node(&list->head, value);
+//     list->length++;
+
+// }
+
 void list_push(List *list, int value){
     add_node(&list->head, value);
     list->length++;
